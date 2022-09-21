@@ -1,0 +1,89 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/aarch64-linux-gnu-gcc-10",
+      "-Iinclude",
+      "-c",
+      "src/boot.S",
+      "-o",
+      "build/boot_s.o"
+    ],
+    "directory": "/home/xv/dev/clang/rtos",
+    "file": "/home/xv/dev/clang/rtos/src/boot.S",
+    "output": "/home/xv/dev/clang/rtos/build/boot_s.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/aarch64-linux-gnu-gcc-10",
+      "-Iinclude",
+      "-c",
+      "src/utils.S",
+      "-o",
+      "build/utils_s.o"
+    ],
+    "directory": "/home/xv/dev/clang/rtos",
+    "file": "/home/xv/dev/clang/rtos/src/utils.S",
+    "output": "/home/xv/dev/clang/rtos/build/utils_s.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/aarch64-linux-gnu-gcc-10",
+      "-Iinclude",
+      "-c",
+      "src/mm.S",
+      "-o",
+      "build/mm_s.o"
+    ],
+    "directory": "/home/xv/dev/clang/rtos",
+    "file": "/home/xv/dev/clang/rtos/src/mm.S",
+    "output": "/home/xv/dev/clang/rtos/build/mm_s.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/aarch64-linux-gnu-gcc-10",
+      "-Wall",
+      "-ffreestanding",
+      "-Iinclude",
+      "-mgeneral-regs-only",
+      "-c",
+      "src/mini_uart.c",
+      "-o",
+      "build/mini_uart_c.o"
+    ],
+    "directory": "/home/xv/dev/clang/rtos",
+    "file": "/home/xv/dev/clang/rtos/src/mini_uart.c",
+    "output": "/home/xv/dev/clang/rtos/build/mini_uart_c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/aarch64-linux-gnu-gcc-10",
+      "-Wall",
+      "-ffreestanding",
+      "-Iinclude",
+      "-mgeneral-regs-only",
+      "-c",
+      "src/kernel.c",
+      "-o",
+      "build/kernel_c.o"
+    ],
+    "directory": "/home/xv/dev/clang/rtos",
+    "file": "/home/xv/dev/clang/rtos/src/kernel.c",
+    "output": "/home/xv/dev/clang/rtos/build/kernel_c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/aarch64-linux-gnu-gcc-10",
+      "-Wall",
+      "-ffreestanding",
+      "-Iinclude",
+      "-mgeneral-regs-only",
+      "-c",
+      "src/gpio.c",
+      "-o",
+      "build/gpio_c.o"
+    ],
+    "directory": "/home/xv/dev/clang/rtos",
+    "file": "/home/xv/dev/clang/rtos/src/gpio.c",
+    "output": "/home/xv/dev/clang/rtos/build/gpio_c.o"
+  }
+]
